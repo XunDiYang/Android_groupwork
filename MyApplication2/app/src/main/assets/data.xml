@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<messages>
+    <message>
+        <title isOfficial="true">抖音小助手</title> <!--子元素   isOfficial是属性-->
+        <hashtag>#我想跳舞求你了</hashtag>
+        <time>昨天 12:10</time>
+        <icon>TYPE_ROBOT</icon>
+    </message>
+    <message>
+        <title isOfficial="true">抖音小助手</title>
+        <hashtag>录取通知书接好了</hashtag>
+        <time>昨天</time>
+        <icon>TYPE_ROBOT</icon>
+    </message>
+    <message>
+        <title isOfficial="true">系统消息</title>
+        <hashtag>人气美食五折起</hashtag>
+        <time>周五</time>
+        <icon>TYPE_SYSTEM</icon>
+    </message>
+    <message>
+        <title isOfficial="false">陌生人消息</title>
+        <hashtag>转发[视频]</hashtag>
+        <time>12-18</time>
+        <icon>TYPE_STRANGER</icon>
+    </message>
+    <message>
+        <title isOfficial="false">抖音小助手</title>
+        <hashtag>净化空气舞</hashtag>
+        <time>昨天</time>
+        <icon>TYPE_ROBOT</icon>
+    </message>
+    <message>
+        <title isOfficial="false">抖音小助手</title>
+        <hashtag>净化空气舞</hashtag>
+        <time>昨天</time>
+        <icon>TYPE_ROBOT</icon>
+    </message>
+    <message>
+        <title isOfficial="false">抖音小助手</title>
+        <hashtag>净化空气舞</hashtag>
+        <time>昨天</time>
+        <icon>TYPE_ROBOT</icon>
+    </message>
+</messages>

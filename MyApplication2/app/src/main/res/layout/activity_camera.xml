@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <SurfaceView
+        android:id="@+id/img"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <LinearLayout
+        android:layout_width="50dp"
+        android:layout_height="500dp"
+        android:orientation="vertical"
+        android:layout_alignParentRight="true">
+
+        <ImageView
+            android:id="@+id/light"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@mipmap/light"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"/>
+
+        <ImageView
+            android:id="@+id/btn_facing"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:src="@mipmap/switchcamera" />
+
+        <ImageView
+            android:id="@+id/upload"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@mipmap/upload2"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="40dp"/>
+
+
+
+        <com.yff.myapplication.widget.VerticalSeekBarWrapper
+            android:layout_width="wrap_content"
+            android:layout_height="300dp"
+            android:layout_gravity="center">
+
+            <com.yff.myapplication.widget.VerticalSeekBar
+                android:id="@+id/zoom"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                app:seekBarRotation="CW270"
+                android:splitTrack="false" />
+        </com.yff.myapplication.widget.VerticalSeekBarWrapper>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="20dp"
+        android:gravity="center">
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/btn_picture"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/camera"
+            />
+
+    </LinearLayout>
+
+
+</RelativeLayout>
