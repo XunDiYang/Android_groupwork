@@ -23,7 +23,6 @@ public class RetrofitManager {
             r = new Retrofit.Builder()
                     .baseUrl(host)
                     .addConverterFactory(GsonConverterFactory.create())
-                    .client(client)
                     .build();
             sHostMap2Retrofit.put(host, r);
         }

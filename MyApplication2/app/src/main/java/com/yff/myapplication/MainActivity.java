@@ -56,7 +56,7 @@ public class MainActivity extends AppCompatActivity
             Manifest.permission.RECORD_AUDIO,
             Manifest.permission.WRITE_EXTERNAL_STORAGE,
             Manifest.permission.READ_EXTERNAL_STORAGE};
-
+    private static final String TAG = "YYY";
 
 
     private BottomNavigationView.OnNavigationItemSelectedListener mOnNavigationItemSelectedListener//底边栏监听
@@ -91,7 +91,7 @@ public class MainActivity extends AppCompatActivity
         RetrofitManager.get(IMiniDouyinService.HOST).create(IMiniDouyinService.class).fetchFeed().enqueue(new Callback<FeedResponse>() {
             @Override
             public void onResponse(Call<FeedResponse> call, Response<FeedResponse> response) {
-                //Log.d(TAG, "onResponse() called with: call = [" + call + "], response = [" + response.body() + "]");
+                Log.d(TAG, "onResponse() called with: call = [" + call + "], response = [" + response.body() + "]");
                 if (response.isSuccessful()) {
                     feeds.clear();
                     feeds.addAll(response.body().getFeeds());
@@ -113,7 +113,7 @@ public class MainActivity extends AppCompatActivity
 
 
     public void setfeeds(){
-        feeds=new LinkedList<>();
+//        feeds=new LinkedList<>();
         fetchFeed();
     }
     public void setMainScreeen()

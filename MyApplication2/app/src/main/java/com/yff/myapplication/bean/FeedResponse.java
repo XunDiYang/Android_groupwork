@@ -31,12 +31,12 @@ public class FeedResponse {
     public void setIsSuccess(boolean isSuccess) {
         this.isSuccess = isSuccess;
     }
-
-    @Override public String toString() {
-        return "FeedResponse{" +
-                "feeds=" + feeds +
-                ", success=" + isSuccess +
-                '}';
-    }
+//
+//    @Override public String toString() {
+//        return "FeedResponse{" +
+//                "feeds=" + feeds +
+//                ", success=" + isSuccess +
+//                '}';
+//    }
 
 }

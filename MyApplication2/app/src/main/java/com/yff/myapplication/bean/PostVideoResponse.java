@@ -40,12 +40,12 @@ public class PostVideoResponse {
         this.url = url;
     }
 
-    @Override
-    public String toString() {
-        return "PostVideoResponse{" +
-                "success=" + isSuccess + '\'' +
-                ", item=" + item +
-                ", url='" + url + '\'' +
-                '}';
-    }
+//    @Override
+//    public String toString() {
+//        return "PostVideoResponse{" +
+//                "success=" + isSuccess + '\'' +
+//                ", item=" + item +
+//                ", url='" + url + '\'' +
+//                '}';
+//    }
 }

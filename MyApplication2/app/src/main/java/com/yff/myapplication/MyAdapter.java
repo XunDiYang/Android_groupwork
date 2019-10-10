@@ -46,7 +46,8 @@ import java.util.List;
 
         @Override
         public int getItemCount() {
-            return feeds.size();
+//            return feeds.size();
+            return 3;
         }//有多少个就多少次
 
         public class MyViewHolder extends RecyclerView.ViewHolder {//ViewHolder通常出现在适配器里，为的是listview滚动的时候快速设置值，而不必每次都重新创建很多对象，从而提升性能。 自定义的ViewHolder 继承原本ViewHolder

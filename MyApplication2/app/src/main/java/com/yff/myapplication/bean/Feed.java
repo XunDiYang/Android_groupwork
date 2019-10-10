@@ -51,15 +51,15 @@ public class Feed {
         this.video_url = video_url;
     }
 
-    @Override
-    public String toString() {
-        return "feesInfo{" +
-                "student_id='" + student_id + '\'' +
-                ", user_name='" + user_name + '\'' +
-                ", image_url='" + image_url + '\'' +
-                ", video_url='" + video_url + '\'' +
-                '}';
-    }
+//    @Override
+//    public String toString() {
+//        return "feesInfo{" +
+//                "student_id='" + student_id + '\'' +
+//                ", user_name='" + user_name + '\'' +
+//                ", image_url='" + image_url + '\'' +
+//                ", video_url='" + video_url + '\'' +
+//                '}';
+//    }
 
 
 }

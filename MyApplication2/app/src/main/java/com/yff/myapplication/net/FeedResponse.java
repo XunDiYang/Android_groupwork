@@ -27,10 +27,10 @@ public class FeedResponse {
         this.feeds = feeds;
     }
 
-    @Override public String toString() {
-        return "FeedResponse{" +
-                " success=" + success +
-                ", feeds=" + feeds +
-                '}';
-    }
+//    @Override public String toString() {
+//        return "FeedResponse{" +
+//                " success=" + success +
+//                ", feeds=" + feeds +
+//                '}';
+//    }
 }

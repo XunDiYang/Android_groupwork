@@ -24,10 +24,10 @@ public class PostVideoResponse {
         this.success = success;
     }
 
-    @Override public String toString() {
-        return "PostVideoResponse{" +
-                "playUrl='" + url + '\'' +
-                ", success=" + success +
-                '}';
-    }
+//    @Override public String toString() {
+//        return "PostVideoResponse{" +
+//                "playUrl='" + url + '\'' +
+//                ", success=" + success +
+//                '}';
+//    }
 }
